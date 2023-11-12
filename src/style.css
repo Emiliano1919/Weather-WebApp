@@ -49,15 +49,28 @@ table {
 
 /* End of meyers reset modified without text*/
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Sono:wght@300&display=swap');
+html{
+    background-color: black;
+    min-height: 100dvh;
+    min-width: fit-content;
+}
+body{
+    display: flex;
+    min-width: fit-content;
+    min-height: 100dvh;
+    margin: 0;
+
+}
 
 
 .container{
     background-color: black;
     min-height: 100dvh;
-    width: 100dvw;
+    min-width: 100dvw;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .information{
@@ -65,6 +78,7 @@ table {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-left: 5rem;
     margin-right: 5rem;
 }
@@ -73,6 +87,7 @@ table {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 2.5rem;
 }
 
 .degrees{
@@ -112,6 +127,7 @@ table {
     flex-direction: column;
     align-items: stretch;
     justify-content: center;
+    margin-bottom: 2.5rem;
 }
 
 .cityCountry{
